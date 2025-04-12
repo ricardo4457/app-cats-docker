@@ -18,3 +18,15 @@ sudo docker system df
 
 meter containers up
 sudo docker-compose up /down
+
+## Github Sub modules api and front end 
+-- to clone all
+git submodule update --init --recursive
+
+-- to update modules
+
+cd api
+git pull origin main
+cd ..
+git add api
+git commit -m "Update API submodule"
