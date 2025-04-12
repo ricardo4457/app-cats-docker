@@ -1,0 +1,6 @@
+[submodule "api"]
+	path = api
+	url = https://github.com/ricardo4457/Api_Cats
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/ricardo4457/front-end_api_cats
