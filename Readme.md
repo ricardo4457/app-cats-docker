@@ -2,7 +2,7 @@ colocar apontar para o ip no front-end
 mask no ip para apresentar um dominio // usar ngnix
 alterar stores no front para o ip certo ou dominio masked
 
-192.168.80.1  --> ip do server
+192.168.80.1  --> ip do server example
 user : rvieira 
 pass : admin123
 
