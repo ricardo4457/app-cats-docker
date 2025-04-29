@@ -108,6 +108,11 @@ cat-search/
 ├── docker-compose.yaml
 └── README.md
 ```
+## Clean all containers
+
+```bash
+ sudo docker system prune -a --volumes
+```
 
 ## 🔒 Security Notes
 - Always change default credentials in production
