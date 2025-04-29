@@ -6,12 +6,14 @@
 ![Node.js](https://img.shields.io/badge/Node.js-Backend-brightgreen)
 
 A full-stack application for managing and searching cat information with:
+
 - **Vue.js Frontend** - Modern, responsive web interface
 - **Node.js Backend** - RESTful API service
 - **MySQL Database** - Persistent data storage
 - **phpMyAdmin** - Database management GUI
 
 ## 🌟 Features
+
 - Dockerized development environment
 - Automatic health checks for database
 - Persistent data storage
@@ -21,11 +23,12 @@ A full-stack application for managing and searching cat information with:
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - Docker Engine 20.10+
 - Docker Compose 1.29+
 - Git 2.20+
 
-```bash
+````bash
 # Clone with submodules
 git clone --recurse-submodules https://github.com/yourusername/cat-search.git
 cd cat-search
@@ -76,13 +79,13 @@ services:
 
 volumes:
   mysql-data:
-```
+````
 
 ### **Maintenance Section**
 
 ## 🔧 Maintenance Commands
 
-```bash
+````bash
 # Update submodules
 git submodule update --remote
 
@@ -107,14 +110,23 @@ cat-search/
 │ └── vite.config.js # Build configuration
 ├── docker-compose.yaml
 └── README.md
-```
+````
+
 ## Clean all containers
 
 ```bash
+ cd app
+
+ sudo docker-compose down
+
  sudo docker system prune -a --volumes
+
+ sudo docker-compose up -d OR  sudo docker-compose up
+
 ```
 
 ## 🔒 Security Notes
+
 - Always change default credentials in production
 - Use environment variables for sensitive data
 - Regularly update your Docker images
